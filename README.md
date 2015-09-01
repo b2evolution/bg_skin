@@ -8,10 +8,13 @@ This b2evolution skin can be freely used as long as the bottom link is intact.
 <li><b>Author URI:</b> http://realestateforum.ws</li>
 </ul>
 
-<img src="skinshot.png">
-<img src="bg-entire_page-main.png">
-<img src="044_bg.png">
-<img src="bg-entire_page-single.png">
+<img src="skinshot.png"><br/>
+<p style="text-align: center">Front page</p>
+<img src="bg-entire_page-main.png"><br/>
+<p style="text-align: center">Back-office customization</p>
+<img src="044_bg.png"><br/>
+<p style="text-align: center">Single post display</p>
+<img src="bg-entire_page-single.png"><br/>
 
 <h4>Version: 2.0</h4>	
 <ul>
