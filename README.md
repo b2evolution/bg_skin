@@ -9,11 +9,11 @@ This b2evolution skin can be freely used as long as the bottom link is intact.
 </ul>
 
 <img src="skinshot.png"><br/>
-<p style="text-align: center">Front page</p>
+<h2>Front page</h2>
 <img src="bg-entire_page-main.png"><br/>
-<p style="text-align: center">Back-office customization</p>
+<h2>Back-office customization</h2>
 <img src="044_bg.png"><br/>
-<p style="text-align: center">Single post display</p>
+<h2>Single post display</h2>
 <img src="bg-entire_page-single.png"><br/>
 
 <h4>Version: 2.0</h4>	
