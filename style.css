@@ -1,0 +1,257 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #111111;
+	background-color: #ffffff;
+}
+#mainwrap {
+	background:url(images/background.gif) repeat-x top;
+}
+#wrap {
+	width: 900px;
+	text-align:left;
+}
+#header {
+	height: 135px;
+}
+#title {
+	float:left;
+	height: 100px;
+	width: 813px;
+}
+#topright {
+	float: right;
+	height: 100px;
+	width: 87px;
+}
+#pagenav {
+	height: 25px;
+	float: left;
+	width: 813px;
+	padding-top: 10px;
+}
+#rss {
+	height: 35px;
+	width: 87px;
+	float: right;
+}
+#main {
+	margin: 20px 0px;
+	font-size: 9pt;
+	color: #212121;
+}
+#sidebar {
+	float:right;
+	width: 175px;
+}
+.searchform, 
+.widgets {
+	background-color: #E9F7D3;
+	border: 1px solid #A6CE34;
+	padding: 15px;
+	margin: 20px 0px;
+	color: #737373;
+	width: 170px;
+}
+#content {
+	margin: 20px 200px 20px 0px;
+	width: 700px;
+}
+#footer {
+	clear: both;
+	margin: 10px 0px;
+	color: #737373;
+}
+.post {
+	margin-bottom:15px;
+	padding-bottom: 10px;
+
+}
+/* text */
+#title h1 {
+	color: #ffffff;
+	font-size: 18pt;
+	padding-top: 20px;
+}
+#title h1 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.description {
+	font-size: 11pt;
+	color: #CCCCCC;
+}
+#pagenav ul li {
+	list-style: none;
+	display: inline;
+	font-size: 9pt;
+	font-weight: bold;
+}
+#pagenav li a {
+	color: #101646;
+	text-decoration: none;
+	padding-right: 15px;
+}
+#pagenav li a:hover {
+	color: #ffffff;
+}
+#main a {
+	color: #212121;
+	font-weight: bold;
+}
+#content h1, #main h1, h2, h3, h4, p, ul, ol, table, form, .notes {
+	padding-bottom: 10px;
+}
+#content h1 {
+	font-size: 16pt;
+	color: #101646;
+	font-weight: normal;
+}
+#content h1 a {
+	color: #101646;
+	text-decoration: none;
+}
+
+#content h1 a:hover {
+	color: #1E3273;
+}
+#main h1 {
+	color: #ffffff;
+	font-size: 16pt;
+	font-weight: normal;
+}
+caption,
+h2 {
+	color: #737373;
+	font-size: 11pt;
+	font-weight: bold;
+}
+#content h2 a {
+	color: #737373;
+	text-decoration: none;
+}
+#sidebar a {
+	color: #737373;
+	text-decoration: none;
+}
+#sidebar a:hover {
+	color: #111111;
+	text-decoration: none;
+}
+#footer a {
+	color: #737373;
+	text-decoration:none;
+}
+#content a {
+	color: #0e1c4b;
+}
+blockquote {
+	margin: 15px;
+	background: url(images/background_blockquote.gif) left top no-repeat #D2E699;
+	border: 1px solid #88c73b;
+	padding: 20px 10px 10px 50px;
+}
+#sidebar ul li {
+	list-style: none;
+}
+#sidebar li {
+	padding-bottom: 2px;
+	margin-left: 10px;
+}
+ul li ul li {
+	margin-left: 10px;
+}
+ul li ul li ul li {	
+	margin-left: 10px;
+}
+#content ul li, #content ol li {
+	margin-left: 25px;
+}
+img a {
+	border: 0px;
+}
+small {
+	color: #737373;
+	font-size: 9pt; 
+	font-weight: bold;
+}
+.postmetadata {
+	padding-top: 10px;
+	color: #737373;
+}
+.postmetadata a {
+	color: #737373;
+	text-decoration:none;
+}
+/* form */
+#submit, .searchsubmit, .submit, .preview {
+	background-color: #A6CE34 !important;
+	color: #ffffff !important;
+	border: 1px solid #88c73b !important; 
+	font-size: 7pt !important;
+	padding: 2px !important;
+	margin-top: 3px !important;
+	font-weight: bold !important;
+	border-radius: 0px !important;
+}
+fieldset {
+	border: 0px; 
+	padding: 0px 15px 15px 15px;
+}
+input, textarea {
+	border: 1px solid #A6CE34; 
+	padding: 5px;
+	font-size: 8pt;
+	background: transparent;
+}
+.label {
+	font-weight: bold;
+}
+.notes {
+	font-style: italic;
+}
+
+#commentform a {
+	color: #85ccfb;
+	text-decoration: none;
+}
+#commentform a:hover {
+	color: #85ccfb;	
+	text-decoration: underline;
+}
+.bComment {
+	padding: 0px 15px;
+}
+.bCommentText {
+	padding: 10px 15px;
+}
+.bCommentSmallPrint {
+	font-size: 7pt;
+	padding: 0px 15px;
+}
+.feedback_feed_msg {
+	padding: 10px 15px;
+}
+.widget_core_coll_longdesc p {
+	padding-bottom: 0px;
+}
+.powered_by {
+	padding: 10px 0px;
+	margin-left: 15px;
+	text-align:center;
+}
+.widget_core_coll_title {
+	padding-top: 10px;
+}
+
+/* Comment form fixes */
+textarea.form_textarea_input.bComment {
+  padding: 0px;
+}
+.moderation_msg p {
+	padding-top: 10px;
+}
