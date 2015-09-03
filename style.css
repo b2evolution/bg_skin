@@ -255,3 +255,7 @@ textarea.form_textarea_input.bComment {
 .moderation_msg p {
 	padding-top: 10px;
 }
+/* Sitewid_header gap fix */
+.sitewide_header {
+	margin-bottom: 0px !important;
+}

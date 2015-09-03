@@ -27,10 +27,14 @@ skin_init( $disp );
 
 
 // -------------------------- HTML HEADER INCLUDED HERE --------------------------
-skin_include( '_html_header.inc.php' );
-// Note: You can customize the default HTML header by copying the generic
-// /skins/_html_header.inc.php file into the current skin folder.
+skin_include( '_html_header.inc.php', array() );
 // -------------------------------- END OF HEADER --------------------------------
+
+
+// ---------------------------- SITE HEADER INCLUDED HERE ----------------------------
+// If site headers are enabled, they will be included here:
+siteskin_include( '_site_body_header.inc.php' );
+// ------------------------------- END OF SITE HEADER --------------------------------
 ?>
 <div id="mainwrap">
 <div align="center">

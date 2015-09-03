@@ -16,6 +16,10 @@ This b2evolution skin can be freely used as long as the bottom link is intact.
 <h2>Single post display</h2>
 <img src="bg-entire_page-single.png"><br/>
 
+<h4>Version: 2.1</h4>	
+<ul>
+	<li>Sitewide_header included for easier multibloging experience</li>
+</ul>
 <h4>Version: 2.0</h4>	
 <ul>
 	<li> Fixed compatibility issues with version 6.6+.</li>
