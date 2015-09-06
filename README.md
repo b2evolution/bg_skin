@@ -26,3 +26,6 @@ This b2evolution skin can be freely used as long as the bottom link is intact.
 	<li> Built customizable introduction content. Describe your blog freely at the very top of the page!</li>
 	<li> Small visual adjustments.</li>
 </ul>
+
+<br/>
+This skin has been developed by a third party. It has been updated by the b2evolution group in an effort to make it work with the latest version of b2evolution. However, this skin is not officially supported by the b2evolution group.
